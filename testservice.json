@@ -1,0 +1,58 @@
+{
+  "services": [
+    {
+      "uuid":"795090c7-420d-4048-a24e-18e60180e23c",
+      "characteristics": [
+        {
+          "uuid": "0b89d2d4-0ea6-4141-86bb-0c5fb91ab14a",
+          "descriptions": [
+            {
+              "uuid": "00002901-0000-1000-8000-00805f9b34fb",
+              "text": "Write any value here to move the cat's paw and increment the awesomeness counter"
+            }
+          ]
+        },
+        {
+          "uuid": "31517c58-66bf-470c-b662-e352a6c80cba",
+          "descriptions": [
+            {
+              "uuid": "00002901-0000-1000-8000-00805f9b34fb",
+              "text": "Indicates the number of time you have been awsome so far"
+            },
+            {
+              "uuid": "00002902-0000-1000-8000-00805f9b34fb",
+              "text": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid":"795090c7-420d-4048-a24e-18e60180e23c",
+      "characteristics": [
+        {
+          "uuid": "0b89d2d4-0ea6-4141-86bb-0c5fb91ab14a",
+          "descriptions": [
+            {
+              "uuid": "00002901-0000-1000-8000-00805f9b34fb",
+              "text": "Write any value here to move the cat's paw and increment the awesomeness counter"
+            }
+          ]
+        },
+        {
+          "uuid": "31517c58-66bf-470c-b662-e352a6c80cba",
+          "descriptions": [
+            {
+              "uuid": "00002901-0000-1000-8000-00805f9b34fb",
+              "text": "Indicates the number of time you have been awsome so far"
+            },
+            {
+              "uuid": "00002902-0000-1000-8000-00805f9b34fb",
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
