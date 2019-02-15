@@ -265,6 +265,7 @@ noinst_PROGRAMS += tools/bdaddr tools/avinfo tools/avtest \
 			tools/nokfw tools/create-image \
 			tools/eddystone tools/ibeacon \
 			tools/btgatt-client tools/btgatt-server \
+			tools/btgatt-server-mine \
 			tools/test-runner tools/check-selftest
 
 tools_bdaddr_SOURCES = tools/bdaddr.c src/oui.h src/oui.c
@@ -333,6 +334,10 @@ tools_btgatt_client_LDADD = src/libshared-mainloop.la \
 
 tools_btgatt_server_SOURCES = tools/btgatt-server.c src/uuid-helper.c
 tools_btgatt_server_LDADD = src/libshared-mainloop.la \
+						lib/libbluetooth-internal.la
+
+tools_btgatt_server_mine_SOURCES = tools/btgatt-server-mine.c src/uuid-helper.c
+tools_btgatt_server_mine_LDADD = src/libshared-mainloop.la \
 						lib/libbluetooth-internal.la
 
 dist_man_MANS += tools/btattach.1
